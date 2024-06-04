@@ -6,9 +6,16 @@
     <title>Doctor Who App</title>
   </head>
   <body>
+    <h1>Time Lord Tracker: Who's Who in the TARDIS</h1>
     <div>
-      <input type="text" placeholder="Search" />
+      <input
+        id="searchInput"
+        onChange="handleChange()"
+        type="text"
+        placeholder="Search"
+      />
+      <button type="button" onClick="handleClick()">Search</button>
     </div>
-    <script></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>
