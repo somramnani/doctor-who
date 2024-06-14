@@ -1,10 +1,19 @@
 .body {
   position: relative;
   height: 100vh;
+
+  background-image: url("https://images.alphacoders.com/861/thumb-1920-861290.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 .container {
+  border: 1px solid black;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 10px;
 }
