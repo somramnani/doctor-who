@@ -18,10 +18,9 @@ async function displayRandomData() {
     console.log(randomItem.image);
     container.innerHTML = `
       <img src = ${randomItem.image} id = "characterImage">
-      <p>ID: ${randomItem.id}</p>
-       <a href =${randomItem.image} >Image link </a>
       <p>Name: ${randomItem.name}</p>
       <p>Origin: ${randomItem.placeOfOrigin.name}</p>
+      <p>Status: ${randomItem.status}</p>
       <p>Description: ${randomItem.description}</p>
     `;
   } else {
