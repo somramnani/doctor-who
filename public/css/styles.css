@@ -1,0 +1,21 @@
+body {
+  /* background-image: url("../images/tardis-background.jpeg"); */
+  background-image: url("../images/tardis-console.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.main {
+  position: relative;
+  height: 100vh;
+}
+.container {
+  border: 1px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+}

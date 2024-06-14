@@ -4,14 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Doctor Who App</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div>
+    <div class="main">
       <!-- <input type="text" placeholder="Search" /> -->
-      <div id="data-container">
-        Engage the TARDIS Console to Reveal a Random Character!
+      <div class="container">
+        <h2>Engage the TARDIS Console to Reveal a Random Character!</h2>
+        <div id="data-container"></div>
+        <button onclick="displayRandomData()">Tardis Console</button>
       </div>
-      <button onclick="displayRandomData()">Tardis Console</button>
     </div>
     <script src="js/index.js"></script>
   </body>
