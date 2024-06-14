@@ -1,6 +1,6 @@
 body {
-  background-image: url("../images/tardis-background.jpeg");
-  background-repeat: no-repeat;
+  /* background-image: url("../images/tardis-background.jpeg"); */
+  background-image: url("../images/tardis-console.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
