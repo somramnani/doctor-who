@@ -24,7 +24,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/doctor-who-random-character-app.git
+   git clone https://github.com/somramnani/tardis-console.git
    ```
 2. Navigate to the project directory:
    ```bash
