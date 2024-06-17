@@ -57,6 +57,6 @@ To run this project locally, follow these steps:
 
 If you have any questions or feedback, feel free to reach out:
 
-- **Your Name**
+- **Som Ramnani**
 - **Email:** som.ramnani@gmail.com
 - **GitHub:** [somramnani](https://github.com/somramnani)
